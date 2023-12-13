@@ -23,6 +23,8 @@ type
     { Private declarations }
   public
     { Public declarations }
+    sl : TStringlist;
+    procedure Sorting(sl:TStringlist);
   end;
 
 var
